@@ -11,6 +11,8 @@ export default function() {
         [`.${e(`border-r${modifier}`)}`]: { borderRightWidth: `${value}` },
         [`.${e(`border-b${modifier}`)}`]: { borderBottomWidth: `${value}` },
         [`.${e(`border-l${modifier}`)}`]: { borderLeftWidth: `${value}` },
+        [`.${e(`border-x${modifier}`)}`]: { borderLeftWidth: `${value}`, borderRightWidth: `${value}` },
+        [`.${e(`border-y${modifier}`)}`]: { borderBottomWidth: `${value}`, borderTopWidth: `${value}` },
       }),
     ]
 
